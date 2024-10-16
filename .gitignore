@@ -1,0 +1,26 @@
+# Dart/Pub related
+.dart_tool/
+.packages
+pubspec.lock
+
+# Build output
+build/
+
+# Flutter related
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+*.jks
+*.keystore
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*.DS_Store
