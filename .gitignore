@@ -1,26 +1,41 @@
-# Dart/Pub related
+gitignore
+Flutter & Dart için temel ignore kuralları
+
+Dart paket yönetimiyle ilgili dosyalar
 .dart_tool/
 .packages
 pubspec.lock
 
-# Build output
+Flutter build çıktı dosyaları
 build/
-
-# Flutter related
 .flutter-plugins
 .flutter-plugins-dependencies
 .flutter-versions
-*.jks
-*.keystore
 
-# IDE files
+iOS platformu için geçici dosyalar
+ios/Flutter/Generated.xcconfig
+ios/.symlinks/
+ios/Pods/
+ios/Podfile.lock
+
+Android Gradle dosyaları
+android/.gradle/
+android/app/key.jks
+
+IDE ve editör dosyaları
 .idea/
 *.iml
 *.ipr
 *.iws
+.vscode/
 
-# Miscellaneous
+Çeşitli gereksiz dosyalar
 *.log
 *.tmp
 *.swp
+*.swo
 *.DS_Store
+*.orig
+
+Ortam değişkenleri ve hassas bilgiler (örneğin API anahtarları)
+.env
